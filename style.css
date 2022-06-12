@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header .nav-2{
+    display: none;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 1;
+}
+nav{
+    /* position: absolute; */
+    display: flex;
+    padding: 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+}
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0 15px;
+    margin-top: auto;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.logo{
+    width: 130px;
+}
+input{
+    width: 350px;
+    height: 42px;
+    margin: -10px 0px 20px 0px;
+    padding-left: 50px;
+    background-color: #f5f5f6 ;
+    border: none;
+    border-radius: 4px;
+}
+i{
+    margin-top: 14px;
+    position: absolute;
+    margin-left: 52%;
+    padding: 0 10px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+h6{
+   margin-left: 82.4%;
+   position: absolute;
+   padding-top: 35px;
+   font-size: 8px;
+}
+.wishlist{
+    margin-left: 87.8%;
+    
+}
+.bag{
+    margin-left: 94%;
+}
+
+.invite{
+    width: 100%;
+    height: 135px;
+    background-color: #e7edff;
+}
+
+.inv{
+    margin-top: -44px;
+    font-size: 14px;
+    text-align: justify;
+    display: grid;
+    justify-content: center;
+    
+}
+
+.img-invite{
+    width: 50px;
+    height: 54px;
+    margin: 80px 0 0 405px;
+}
+
+.btn-invite{
+    margin: -37px 0 0 800px;
+    position: absolute;
+    font-size: 10px;
+    padding: 5px 18px;
+    color: red;
+    border: 0.5px solid grey;
+    border-radius: 2px;
+    background: transparent;
+    font-weight: bolder;
+}
+
+h6 .inv{
+    text-align: center;
+}
+
+.carousel{
+    min-height: 70vh;
+    margin-top: 45px;
+}
+
+.image {
+    height: 40.5vh;
+    margin-top: 3rem;
+}
+.image-2{
+    height: 35.3vh;
+    /* margin-top: 3rem; */
+}
+
+h3{
+    margin-left: 2rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+}
+
+.h3-2{
+   margin-top: 3rem;
+   margin-bottom: 4rem;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: .15em;
+   font-size: 1.8em;
+}
+
+.image-3{
+    height: 38vh;
+}
+
+.h3-3{
+    margin-top: 3rem;
+   margin-bottom: 4rem;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: .15em;
+   font-size: 1.8em;
+   
+}
+
+.bag{
+    display: flex;
+    float: left;
+}
+
+.image-4{
+    height: 33.3vh;
+}
+
+.image-5{
+    height: 44vh;
+}
+
+.image-6{
+    height: 36vh;
+}
+
+.image-7{
+    height: 33.1vh;
+}
+
+.image-8{
+    height: 35.3vh;
+}
+
+.image-9{
+    height: 47.7vh;
+}
+.image-10{
+    height: 35.3vh;
+}
+.image-11{
+    height: 40.5vh;
+}
+.image-12,.image-13{
+    height: 35.4vh;
+}
+.image-14{
+    height: 40.4vh;
+}
+.image-15{
+    height: 35vh;
+}
+.image-16{
+    height: 36vh;
+}
+.image-17{
+    height: 39.2vh;
+}
+.image-18{
+    height: 35.4vh;
+}
+.image-19{
+    height: 39vh;
+}
+.image-20{
+    height: 25.8vh;
+}
+.image-21{
+    height: 35.7vh;
+}
+.image-22{
+    height: 35.3vh;
+}
+
+/* footer */
+.heading{
+    display: flex;
+}
+.heading h5{
+    font-size: 12px;
+    margin: 35px 0 0 85px;
+
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 38px;
+}
+
+footer .content{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 20px;
+}
+
+.google{
+    width: 135px;
+    height: 40px;
+    margin: 28px 0 20px -24px;
+    position: relative;
+}
+.app{
+    width: 135px;
+    height: 40px;
+    margin: 28px 0 0 14px;
+}
+
+.assets .original{
+    margin-left: 67%;
+    margin-top: -14px;
+    font-size: 15px;
+    position: absolute;
+}
+
+.originals{
+    width: 45px;
+    height: 40px;
+    margin: -14px 422px 0 0; 
+    float: right;
+}
+.returns{
+    width: 48px;
+    height: 44px;
+    margin: 35px -48px 0 -20px;
+    float: right;
+}
+.assets .return{
+    margin: 36px -220px 0 -40px;
+    font-size: 15px;
+    float: right;
+    
+}
+
+.copyright{
+    float: right;
+    margin: 250px 80px 0px 0px;
+}
+@media only screen and (max-width: 768px) {
+
+    /* carousel */
+    .carousel{
+        min-height: 20vh;
+    }
+
+    /* nav */
+
+    .h3-3{
+        font-size: 1em;
+    }
+
+    .deal{
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+    .deal .image{
+        height: 15vh;
+    }
+
+    .deal h3{
+        font-size: 1em;
+    }
+
+    /* best of myntra exclusive */
+    .h3-2{
+        font-size: 1em;
+    }
+    .best{
+        flex-wrap: wrap;
+        margin-left: 14px;
+    }
+    .best .image-2{
+        height: 20vh;
+    }
+
+    /* top picks */
+    .top .h3-3{
+        font-size: 1em;
+    }
+
+    .top .image-3{
+        height: 28vh;
+        margin-left: 9.7px;
+    }
+
+    /* invite */
+    .invite{
+        height: 125px;
+    }
+    .inv{
+        margin-top: -35px;
+        font-size: 10px;
+    }
+    .img-invite{
+        width: 40px;
+        height: 44px;
+        margin: 73px 0 0 26px;
+    }
+    
+    /* categories to bag */
+    .categories .image-4{
+        height: 20vh;
+    }
+
+    /* deals on top brand */
+    .deals .image-5{
+        height: 25.5vh;
+        margin-left: 4px;
+    }
+
+    /* brands at slashed prices */
+    .brands .image-6{
+        height: 27.5vh;
+        margin-left: 6px;
+    }
+
+    /* best buys */
+    .best .image-7{
+        height: 28vh;
+    }
+
+    /* myntra luxe */
+    .luxe .image-8{
+        height: 32vh;
+        margin-left: 1px;
+    }
+
+    /* gifting cards */
+    .gifting .image-9{
+        height: 40vh;
+        margin-left: 18px;
+    }
+
+    /* spring summer */
+    .spring .image-10{
+        height: 32vh;
+    }
+
+    /* stylecast hottest fonds */
+    .stylecast .image-11{
+        height: 32vh;
+    }
+
+    /* trends for her */
+    .trends-her .image-12{
+        height: 32vh;
+    }
+    /* trends for him */
+    .trends-him .image-13{
+        height: 32vh;
+    }
+
+     /* best of kidswear */
+     .kids .image-14{
+        height: 32vh;
+     }
+
+     /* new in top brands */
+     .top-brands .image-15{
+        height: 32vh;
+     }
+
+     /* spring summer season checklist */
+     .spring .image-16{
+        height: 32vh;
+        margin-left: 2px;
+     }
+
+     /* newness for every occasion */
+     .newness .image-17{
+        height: 34vh;
+        margin-left:10px;
+     }
+
+     /* latest in beauty and grooming */
+     .grooming .image-17{
+        height: 34vh;
+        margin-left: 10px;
+     }
+
+     /* unmissable this season */
+     .unmissable .image-18{
+        height: 32vh;
+     }
+
+     /* colours of the season */
+     .colors .image-19{
+        height: 34vh;
+        margin-left: 10px;
+     }
+
+     /* top influcers exclusive styles */
+     .influcers .image-20{
+        height: 34vh;
+        margin-left: 10px;
+     }
+
+     /* budget picks influencers */
+     .budget .image-21{
+        height: 32vh;
+        margin-left: 2px;
+     }
+
+     /* trending outfits by influencers */
+     .trending .image-22{
+        height: 32vh;
+     }
+
+     /* icons */
+     .icon{
+        width: 20px;
+        height: 20px;
+        margin-top: 2px;
+        margin-left: 40px;
+        
+    }
+
+     /* footer */
+     footer{
+        display: none;
+     }
+
+     header .nav-1{
+        display: none;
+     }
+
+     header .nav-2{
+        display: inherit;
+     }
+  }
+  
+
+
+
+
+
+
